@@ -5,7 +5,7 @@ INPUT="$1"
 #check if input file is provided
 if [ -f "$INPUT" ];
 then
-    OUTPUT=$(echo $INPUT | sed -e s/.bls$//)'.bed'
+    OUTPUT="${INPUT%.*}.bed"
 else
     echo "ERROR: No input file prvided or file does not exist.
 Usage: ./blast2bed <blastoutput.bls>
