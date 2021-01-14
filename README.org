@@ -10,7 +10,7 @@ to a bed file.
 *** Notes
 - The input file should be generated with the outfmt 6 or 7 
   flag.
-- If the input file name has a '.bls' file extension, it 
+- If the input file name has an any file extension, it 
   will be replaced by '.bed' for the output file.
   Otherwise, the output file will be <inputfile>.bed
 - The score is always set to 0
